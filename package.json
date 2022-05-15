@@ -1,14 +1,24 @@
 {
-  "name": "note-taker",
+  "name": "jc-cu-c11-note-taker",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "## Columbia University Bootcamp - Express.js Challenge: Note Taker",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jess-n-chen/jc-cu-c11-note-taker.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jess-n-chen/jc-cu-c11-note-taker/issues"
+  },
+  "homepage": "https://github.com/jess-n-chen/jc-cu-c11-note-taker#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
   }
 }
