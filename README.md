@@ -3,7 +3,7 @@
 ## Columbia University Bootcamp - Express.js Challenge: Note Taker
 
 > This repository contains my Note Taker application that allows an end user to write and save notes.
-> Link to Live Application:
+> Link to Live Application: https://intense-basin-30999.herokuapp.com/
 
 ## Table of Contents
 
@@ -51,6 +51,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ```
 
 ## Screenshots
+
+![Note Taker - Homepage](./public/assets/images/Note_Taker-Homepage.png)
+![Note Taker - Notes Page](./public/assets/images/Note_Taker-Notes_Page.png)
+![Note Taker - Adding New Note](./public/assets/images/Note_Taker-Adding_New_Note.png)
 
 ## Source Code
 

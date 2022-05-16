@@ -1,8 +1,14 @@
 html,
 body {
+  font-family: "Kalam", cursive !important;
+  font-family: "Roboto", sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+.navbar {
+  background-color: #38598b;
 }
 
 .save-note {
@@ -18,7 +24,7 @@ body {
 
 .note-textarea,
 .note-title {
-  color: #000000;
+  color: #272343;
   width: 100%;
   outline: none;
   border: none;
@@ -61,7 +67,9 @@ body {
 }
 
 .list-item-title {
+  color: #142d4c;
   display: inline-block;
+  font-size: 2rem;
   width: 75%;
 }
 

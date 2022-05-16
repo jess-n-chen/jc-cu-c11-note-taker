@@ -1,6 +1,6 @@
 // Packages Required for Script
 const router = require("express").Router();
-const { saveNewNote, validateNewNote } = require("../../lib/notes");
+const { saveNewNote, validateNewNote, deleteNote } = require("../../lib/notes");
 const notes = require("../../db/db.json");
 
 router.get("/notes", (req, res) => {
@@ -13,6 +13,16 @@ router.post("/notes", (req, res) => {
   } else {
     const note = saveNewNote(req.body, notes);
     res.json(note);
+  }
+});
+
+router.delete("/notes/:id", (req, res) => {
+  const result = deleteNote(req.params.id, notes);
+
+  if (result) {
+    res.json(result);
+  } else {
+    res.send(404);
   }
 });
 
